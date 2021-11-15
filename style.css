@@ -1,0 +1,40 @@
+body {
+  background-color: #2d364e;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.logo {
+  width: 500px;
+}
+
+.btn {
+  width: 200px;
+  background: #1edd88;
+  text-align: center;
+  padding: 8px 24px;
+  border-radius: 10px;
+  border: solid 2px #fff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1bcb7f;
+  border-color: #1bcb7f;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 8px 24px;
+}
