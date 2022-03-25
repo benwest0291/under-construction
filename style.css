@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  margin-top: 130px;
+  margin-top: 70px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -19,22 +19,12 @@ h2 {
   width: 500px;
 }
 
-.btn {
-  width: 200px;
-  background: #1edd88;
-  text-align: center;
-  padding: 8px 24px;
-  border-radius: 10px;
-  border: solid 2px #fff;
+.construction__heading,
+.construction__title {
   color: #fff;
-  text-decoration: none;
+  font-weight: 300;
 }
 
-.btn:hover {
-  background: #1bcb7f;
-  border-color: #1bcb7f;
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-  padding: 8px 24px;
+.construction__title {
+  margin-bottom: 80px !important;
 }
